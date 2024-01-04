@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         greenlight: "#64ffda",
         gray: "#ccd6f6",
+        graydark: "#8892b0",
       },
     },
   },

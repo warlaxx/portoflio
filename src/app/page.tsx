@@ -1,42 +1,39 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
+import Presentation from "./components/Presentation";
+import Experience from "./components/Experience";
+import Projets from "./components/Projets";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-full w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          logo
-        </p>
-        <div className="flex items-center gap-5">
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <a
-              className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="text-greenlight">01.</span> About
-            </a>
+    <main className="flex flex-col px-10  pt-12 ">
+      <Navbar />
+      <div className="flex flex-col pt-32   px-[150px]">
+        <div className="flex flex-col  px-[150px]">
+          <div className="min-h-screen justify-center flex">
+            <div className=" flex-col items-center  justify-center">
+              <p className="text-greenlight pb-8">Bonjour, je m'appel</p>
+              <p className="text-gray text-5xl font-semibold pb-4">
+                Abdallah Abdallaoui-maane
+              </p>
+              <p className="text-graydark text-3xl font-extrabold pb-4">
+                Passionné par l'informatique
+              </p>
+              <p className="text-gray">
+                Je suis développeur full stack spécialiser en Stack JS pour
+                créer tout type d'application web.{" "}
+              </p>
+            </div>
           </div>
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <a>
-              <span className="text-greenlight">02.</span> Experience
-            </a>
-          </div>
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <a>
-              <span className="text-greenlight">03.</span> Work
-            </a>
-          </div>
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <a>
-              <span className="text-greenlight">04.</span> Contact
-            </a>
-          </div>
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <a className="text-greenlight border border-greenlight px-6 py-3 rounded-md">
-              Resume
-            </a>
+          <div className="flex flex-col items-center justify-center self-center">
+            <Presentation />
+
+            <Experience />
+
+            <Projets />
+
+            <Contact />
           </div>
         </div>
       </div>
