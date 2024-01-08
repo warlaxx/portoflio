@@ -6,7 +6,7 @@ interface Props {
 
 const Projets = ({ children }: Props) => {
   return (
-    <div className="w-2/5">
+    <div className="w-4/5 sm:w-full">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">03.</p>
