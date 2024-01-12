@@ -31,7 +31,8 @@
   margin-bottom: 20px;
   font-size: 3em;
   font-family: "Arial", sans-serif;
-  transition: opacity 1s ease-in-out; /* Ajout de la transition pour le premier paragraphe */
+  transition: opacity 1s ease-in-out;
+  margin-top: 200px; /* Ajout de la transition pour le premier paragraphe */
 }
 
 .loader {
@@ -40,8 +41,22 @@
   transition: opacity 1s ease-in-out 0.5s; /* Ajout de la transition pour le deuxième paragraphe avec un délai de 0.5s */
 }
 
+.loader1 {
+  animation: fadeOut 0.75s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.loader {
+  animation: fadeOut 3s ease-out forwards;
+  animation-delay: 1s;
+}
+
 @keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
   to {
     opacity: 0;
+    visibility: hidden;
   }
 }
