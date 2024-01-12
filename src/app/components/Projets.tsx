@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import { FaExternalLinkAlt } from "react-icons/fa";
 interface Props {
   children: React.ReactNode;
 }
@@ -14,22 +15,32 @@ const Projets = ({ children }: Props) => {
         </div>
         <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
       </div>
-      <div className="pt-10">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          vestibulum, libero et tincidunt iaculis, felis sapien ultricies
-          ligula, vel cursus elit elit ut ipsum. Fusce id leo vel justo eleifend
-          vulputate. Sed non fringilla neque. Ut id lacus vel velit feugiat
-          facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia Curae; Curabitur vitae justo a ex dapibus
-          posuere. Maecenas ultrices tortor vel lacinia fringilla. Aenean
-          eleifend justo in justo luctus, eu venenatis velit dapibus. Sed
-          ullamcorper ex vitae nisi semper, ac congue ligula tincidunt. Nullam
-          ultrices felis vitae sapien tincidunt, vitae accumsan nunc tincidunt.
-          Nulla facilisi. Sed tincidunt lacinia justo, in tincidunt eros cursus
-          vel. Proin sed efficitur lacus. Suspendisse potenti. Nulla facilisi.
-          Sed suscipit mi ac dapibus bibendum.
-        </p>
+      <div className="pt-10 flex justify-center">
+        <Image
+          src="/image/screenshot_DCGG.png" // Le chemin relatif depuis le dossier public
+          alt="Description de l'image"
+          width={600} // Largeur souhaitée de l'image
+          height={200} // Hauteur souhaitée de l'image
+          className="rounded-xl"
+        />
+        <div className="justify-center flex flex-col align-center text-right">
+          <p className="text-2xl text-greenlight font-bold">Project DC.GG</p>
+          <p className="text-gray px-20 py-10 bg-blue-600">
+            Découvrez dc.gg, le site parfait pour les administrateurs de
+            serveurs Discord. Créez des liens d'invitation personnalisés et
+            suivez les statistiques en temps réel, y compris le nombre de clics
+            et d'autres données importantes. Simplifiez la gestion de votre
+            serveur et optimisez votre présence en ligne avec dc.gg !
+          </p>
+          <p className="text-graydark">Next.js Express.js Typescript Prisma </p>
+          <a
+            href="https://dc.gg/"
+            target="_blank"
+            className="justify-self-end flex text-right"
+          >
+            <FaExternalLinkAlt className="text-greenlight " />
+          </a>
+        </div>
       </div>
     </div>
   );
