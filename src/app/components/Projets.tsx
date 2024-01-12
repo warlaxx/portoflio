@@ -14,20 +14,23 @@ const Projets = ({ children }: Props) => {
         </div>
         <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum,
-        libero et tincidunt iaculis, felis sapien ultricies ligula, vel cursus
-        elit elit ut ipsum. Fusce id leo vel justo eleifend vulputate. Sed non
-        fringilla neque. Ut id lacus vel velit feugiat facilisis. Vestibulum
-        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-        Curae; Curabitur vitae justo a ex dapibus posuere. Maecenas ultrices
-        tortor vel lacinia fringilla. Aenean eleifend justo in justo luctus, eu
-        venenatis velit dapibus. Sed ullamcorper ex vitae nisi semper, ac congue
-        ligula tincidunt. Nullam ultrices felis vitae sapien tincidunt, vitae
-        accumsan nunc tincidunt. Nulla facilisi. Sed tincidunt lacinia justo, in
-        tincidunt eros cursus vel. Proin sed efficitur lacus. Suspendisse
-        potenti. Nulla facilisi. Sed suscipit mi ac dapibus bibendum.
-      </p>
+      <div className="pt-10">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          vestibulum, libero et tincidunt iaculis, felis sapien ultricies
+          ligula, vel cursus elit elit ut ipsum. Fusce id leo vel justo eleifend
+          vulputate. Sed non fringilla neque. Ut id lacus vel velit feugiat
+          facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et
+          ultrices posuere cubilia Curae; Curabitur vitae justo a ex dapibus
+          posuere. Maecenas ultrices tortor vel lacinia fringilla. Aenean
+          eleifend justo in justo luctus, eu venenatis velit dapibus. Sed
+          ullamcorper ex vitae nisi semper, ac congue ligula tincidunt. Nullam
+          ultrices felis vitae sapien tincidunt, vitae accumsan nunc tincidunt.
+          Nulla facilisi. Sed tincidunt lacinia justo, in tincidunt eros cursus
+          vel. Proin sed efficitur lacus. Suspendisse potenti. Nulla facilisi.
+          Sed suscipit mi ac dapibus bibendum.
+        </p>
+      </div>
     </div>
   );
 };
