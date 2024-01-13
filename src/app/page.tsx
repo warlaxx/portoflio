@@ -30,21 +30,20 @@ export default function Home() {
         <main className="flex flex-col px-10  pt-12 ">
           <Navbar />
 
-          <div className="flex flex-col pt-32   px-[150px]">
-            <div className="flex flex-col  px-[150px]">
-              <div className="min-h-screen justify-center flex">
-                <div className=" flex-col items-center  justify-center">
-                  <p className="text-greenlight pb-8">Hello, my name is</p>
-                  <p className="text-gray text-5xl font-semibold pb-4">
+          <div className="flex flex-col">
+            <div className="flex flex-col  px-[20vw]">
+              <div className="min-h-[90vh] justify-center flex">
+                <div className=" flex-col items-center  justify-center self-center">
+                  <p className="text-greenlight  text-base">Hi, my name is</p>
+                  <p className="text-gray text-[80px] font-semibold ">
                     Abdallah Abdallaoui-maane
                   </p>
-                  <p className="text-graydark text-3xl font-extrabold pb-4">
-                    Passionate about computer science, new technologies, and
-                    development
+                  <p className="text-graydark text-[80px] font-extrabold ">
+                    I build things for the web.
                   </p>
-                  <p className="text-gray">
-                    I am a full-stack developer specializing in the JS stack to
-                    create various types of web applications.
+                  <p className="text-gray text-base">
+                    I&apos;m a full-stack developer specializing in the JS stack
+                    to create various types of web applications.
                   </p>
                 </div>
               </div>
