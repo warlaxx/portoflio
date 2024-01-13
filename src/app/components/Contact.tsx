@@ -1,10 +1,6 @@
 import React from "react";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Contact = ({ children }: Props) => {
+const Contact = () => {
   return (
     <div className="w-4/5 sm:w-full">
       <div className="flex items-center w-full gap-6 pt-10">

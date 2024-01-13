@@ -3,11 +3,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Navbar = ({ children }: Props) => {
+const Navbar = () => {
   const [hasTransition, setHasTransition] = useState(false);
 
   useEffect(() => {

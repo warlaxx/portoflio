@@ -2,11 +2,7 @@
 import React, { useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Experience = ({ children }: Props) => {
+const Experience = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -68,38 +64,38 @@ const Experience = ({ children }: Props) => {
               </p>
               <p className="text-gray text-sm">Nov 2022 - Nov 2023</p>
             </div>
-            <div className="pt-5 flex gap-5 ">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px] " />
+            <div className="pt-5 flex gap-5">
+              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
               <p className="text-graydark">
-                Chez <span className="text-greenlight ">Sharewood</span>, j'ai
-                été impliqué dans une variété de projets, allant de petites
-                missions de suivi et de maintenance sur des sites{" "}
+                Chez <span className="text-greenlight">Sharewood</span>,
+                j&apos;ai été impliqué dans une variété de projets, allant de
+                petites missions de suivi et de maintenance sur des sites{" "}
                 <span className="text-greenlight font-semibold">
                   CMS WordPress
                 </span>
                 , où la gestion des mises à jour et du contenu était cruciale.
               </p>
             </div>
-            <div className="pt-5 flex gap-5 ">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px] " />
+            <div className="pt-5 flex gap-5">
+              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
               <p className="text-graydark">
-                En parallèle, j'ai développé des applications avec{" "}
+                En parallèle, j&apos;ai développé des applications avec{" "}
                 <span className="text-greenlight font-semibold">Vue.js</span> et{" "}
                 <span className="text-greenlight font-semibold">Laravel</span>{" "}
                 en back-end pour différents clients, assurant une expérience
                 utilisateur optimale et des fonctionnalités avancées.
               </p>
             </div>
-            <div className="pt-5 flex gap-5 ">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px] " />
+            <div className="pt-5 flex gap-5">
+              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
               <p className="text-graydark">
-                J'ai également pris en charge l'hébergement et le déploiement
-                d'une application web, veillant à sa mise en ligne fluide et
-                efficace.
+                J&apos;ai également pris en charge l&apos;hébergement et le
+                déploiement d&apos;une application web, veillant à sa mise en
+                ligne fluide et efficace.
               </p>
             </div>
-            <div className="pt-5 flex gap-5 ">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px] " />
+            <div className="pt-5 flex gap-5">
+              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
               <p className="text-graydark">
                 Tout au long de ces missions, ma priorité a été de produire un
                 code propre, bien organisé et optimisé pour garantir des

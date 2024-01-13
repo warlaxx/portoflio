@@ -2,11 +2,7 @@ import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import Image from "next/image";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Presentation = ({ children }: Props) => {
+const Presentation = () => {
   return (
     <div className="w-4/5 sm:w-full">
       <div className="flex items-center w-full gap-6 pt-10">

@@ -1,11 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
-interface Props {
-  children: React.ReactNode;
-}
 
-const Projets = ({ children }: Props) => {
+const Projets = () => {
   return (
     <div className="w-4/5 sm:w-full">
       <div className="flex items-center w-full gap-6 pt-10">
@@ -27,9 +24,9 @@ const Projets = ({ children }: Props) => {
           <p className="text-2xl text-greenlight font-bold">Project DC.GG</p>
           <p className="text-gray px-20 py-10 bg-blue-600">
             Découvrez dc.gg, le site parfait pour les administrateurs de
-            serveurs Discord. Créez des liens d'invitation personnalisés et
+            serveurs Discord. Créez des liens d&apos;invitation personnalisés et
             suivez les statistiques en temps réel, y compris le nombre de clics
-            et d'autres données importantes. Simplifiez la gestion de votre
+            et d&apos;autres données importantes. Simplifiez la gestion de votre
             serveur et optimisez votre présence en ligne avec dc.gg !
           </p>
           <p className="text-graydark">Next.js Express.js Typescript Prisma </p>
