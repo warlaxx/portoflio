@@ -6,7 +6,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
 import Experience from "./components/Experience";
-import Projets from "./components/Projets";
+import Projets from "./components/Project";
 import Contact from "./components/Contact";
 import Preloader from "./components/Preloader";
 
@@ -34,18 +34,17 @@ export default function Home() {
             <div className="flex flex-col  px-[150px]">
               <div className="min-h-screen justify-center flex">
                 <div className=" flex-col items-center  justify-center">
-                  <p className="text-greenlight pb-8">
-                    Bonjour, je m&apos;appel
-                  </p>
+                  <p className="text-greenlight pb-8">Hello, my name is</p>
                   <p className="text-gray text-5xl font-semibold pb-4">
                     Abdallah Abdallaoui-maane
                   </p>
                   <p className="text-graydark text-3xl font-extrabold pb-4">
-                    Passionné par l&apos;informatique
+                    Passionate about computer science, new technologies, and
+                    development
                   </p>
                   <p className="text-gray">
-                    Je suis développeur full stack spécialiser en Stack JS pour
-                    créer tout type d&apos;application web.{" "}
+                    I am a full-stack developer specializing in the JS stack to
+                    create various types of web applications.
                   </p>
                 </div>
               </div>

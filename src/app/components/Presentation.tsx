@@ -8,7 +8,7 @@ const Presentation = () => {
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">01.</p>
-          <p className="text-gray font-semibold text-3xl">A propos de moi </p>
+          <p className="text-gray font-semibold text-3xl">About Me </p>
         </div>
         <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
       </div>

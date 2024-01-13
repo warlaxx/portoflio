@@ -34,17 +34,17 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="text-greenlight">01.</span> Présentation
+            <span className="text-greenlight">01.</span> About
           </a>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a>
-            <span className="text-greenlight">02.</span> Expérience
+            <span className="text-greenlight">02.</span> Experience
           </a>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a>
-            <span className="text-greenlight">03.</span> Projets
+            <span className="text-greenlight">03.</span> Project
           </a>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a className="text-greenlight border border-greenlight px-6 py-3 rounded-md">
-            CV
+            Resume
           </a>
         </div>
       </div>

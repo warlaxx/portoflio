@@ -10,7 +10,7 @@ const Preloader: React.FC = () => {
         <p className="text-gray">Abdallah Abdallaoui-maane</p>
       </div>
       <div className={styles.loader}>
-        <p className="text-greenlight">Développeur Vue.js</p>
+        <p className="text-greenlight">Full-stack Developer</p>
       </div>
     </div>
   );
