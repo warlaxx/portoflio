@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projets = () => {
   return (
-    <div className="w-4/5 sm:w-full">
+    <div className="w-full">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">03.</p>
@@ -16,12 +16,13 @@ const Projets = () => {
       </div>
       <div className="pt-10 flex justify-center">
         <Image
-          src="/image/screenshot_DCGG.png" // Le chemin relatif depuis le dossier public
+          src="/image/screenshot_DCGG.png"
           alt="Description de l'image"
-          width={600} // Largeur souhaitée de l'image
-          height={200} // Hauteur souhaitée de l'image
+          width={300} // Largeur souhaitée de l'image
+          height={100} // Hauteur souhaitée de l'image
           className="rounded-xl"
         />
+
         <div className="justify-center flex flex-col items-center text-right">
           <p className="text-2xl text-greenlight font-bold">Project DC.GG</p>
           <p className="text-gray px-20 py-10 bg-blue-600">

@@ -38,7 +38,7 @@ const Experience = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div
+          {/* <div
             className={` pl-6 h-8 items-center ${
               isHovered
                 ? "border-l-2 text-greenlight justify-center cursor-pointer"
@@ -50,11 +50,11 @@ const Experience = () => {
                 : ""
             }`}
           >
-            <p className="selection:hidden">Sharewood</p>
-          </div>
+            <p className="selection:hidden hidden">Sharewood</p>
+          </div> */}
         </div>
         {isClicked && (
-          <div className="pt-5 w-2/5">
+          <div className="pt-5 w-4/5">
             <div>
               <p className="text-xl">
                 Full-stack Developer{" "}
