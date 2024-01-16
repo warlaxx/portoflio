@@ -14,20 +14,20 @@ const Presentation = () => {
       </div>
       <div className="flex  gap-10 pt-10">
         <div className="w-2/4">
+          <p className="text-graydark pb-5">
+            Hello ! My name is Abdallah, and I enjoy creating things that come
+            to life on the Internet. My interest in web development started in
+            2020 when I decided to try creating my own website.
+          </p>
+          <p className="text-graydark pb-5">
+            Today, I&apos;ve had the privilege of working in a web agency where
+            I could discover the world of web development and the daily life of
+            a developer. My main goal these days is to find a motivating company
+            and project where I can showcase my skills and continue learning
+            more in my field.
+          </p>
           <p className="text-graydark ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            vestibulum, libero et tincidunt iaculis, felis sapien ultricies
-            ligula, vel cursus elit elit ut ipsum. Fusce id leo vel justo
-            eleifend vulputate. Sed non fringilla neque. Ut id lacus vel velit
-            feugiat facilisis. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia Curae; Curabitur vitae justo a ex
-            dapibus posuere. Maecenas ultrices tortor vel lacinia fringilla.
-            Aenean eleifend justo in justo luctus, eu venenatis velit dapibus.
-            Sed ullamcorper ex vitae nisi semper, ac congue ligula tincidunt.
-            Nullam ultrices felis vitae sapien tincidunt, vitae accumsan nunc
-            tincidunt. Nulla facilisi. Sed tincidunt lacinia justo, in tincidunt
-            eros cursus vel. Proin sed efficitur lacus. Suspendisse potenti.
-            Nulla facilisi. Sed suscipit mi ac dapibus bibendum.
+            Here are a few technologies I&apos;ve been working with recently:
           </p>
           <div className="grid grid-cols-2 gap-2 pt-6">
             <div className="flex items-center gap-3">
