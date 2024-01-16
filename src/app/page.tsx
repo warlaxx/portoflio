@@ -27,11 +27,11 @@ export default function Home() {
       {loading ? (
         <Preloader />
       ) : (
-        <main className="flex flex-col px-10  pt-12 bg-[#0a192f]">
+        <main className="flex flex-col px-10 lg- pt-12 bg-[#0a192f]">
           <Navbar />
 
           <div className="flex flex-col">
-            <div className="flex flex-col  px-[20vw]">
+            <div className="flex flex-col  px-[10vw] 2xl:px-[20vw] lg:px-[5vw] ">
               <div className="min-h-[90vh] justify-center flex">
                 <div className=" flex-col items-center  justify-center self-center">
                   <p className="text-greenlight font-mono">Hi, my name is</p>

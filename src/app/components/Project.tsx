@@ -21,7 +21,7 @@ const Projets = () => {
         <div className="pt-10 flex flex-col md:flex-row items-center justify-center relative">
           <Link href={"https://dc.gg/"} target="_blank">
             <div
-              className={`absolute top-10 left-0 right-0 bottom-0 bg-greenlight transition-opacity duration-300 z-20 rounded-md ${
+              className={`absolute top-10 left-0 right-0 bottom-0 bg-greenlight transition-opacity duration-300 z-20 rounded-md   ${
                 isHovered ? "opacity-0" : "opacity-40"
               }`}
               onMouseEnter={() => setIsHovered(true)}
@@ -31,20 +31,20 @@ const Projets = () => {
             <Image
               src="/image/screenshot_DCGG.png"
               alt="Description de l'image"
-              width={600} // Largeur souhaitée de l'image
-              height={100} // Hauteur souhaitée de l'image
-              className="rounded-md mb-4 md:mb-0  relative" // Ajoutez des marges selon vos préférences
+              width={800}
+              height={100}
+              className="rounded-md mb-4 md:mb-0 relative w-full " // Ajoutez des marges selon vos préférences
             />
           </Link>
         </div>
 
         {/* Contenu texte */}
-        <div className="md:text-end block relative right-12 w-2/5 justify-self-end z-50">
+        <div className="md:text-end block relative right-12 w-2/5 md:w-4/5 justify-self-end z-50 pt-8">
           <p className="text-xs text-greenlight font-mono">Featured Project</p>
           <p className="text-2xl text-gray font-bold font-mono ">
             Project DC.GG
           </p>
-          <p className="text-graydark  bg-[#112240] mb-4 rounded-md p-[25px] ">
+          <p className="text-graydark  bg-[#112240] mb-4 rounded-md p-[25px] md:text-base ">
             Explore dc.gg, the perfect site for Discord server administrators.
             Create personalized invitation links and track real-time statistics,
             including the number of clicks and other vital data. Simplify your
