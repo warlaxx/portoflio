@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Presentation = () => {
   return (
-    <div className="w-4/5 sm:w-full">
+    <div className="w-4/5 sm:w-full" id="about">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">01.</p>

@@ -21,7 +21,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="w-4/5 sm:w-full">
+    <div className="w-4/5 sm:w-full" id="experience">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3 w-full">
           <p className="text-greenlight text-2xl">02.</p>

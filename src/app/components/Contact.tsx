@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-3/5 pt-20 flex flex-col gap-2 justify-center text-center">
+    <div
+      className="w-3/5 pt-20 flex flex-col gap-2 justify-center text-center"
+      id="contact"
+    >
       <p className="text-greenlight text-base font-mono">
         04. What&apos;s Next?{" "}
       </p>
