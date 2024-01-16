@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -28,33 +29,33 @@ const Navbar = () => {
       </p>
       <div className="flex items-center gap-5 navbar">
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a className="font-mono" href="#about">
+          <Link className="font-mono" href="#about">
             <span className="text-greenlight">01.</span> About
-          </a>
+          </Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a className="font-mono" href="#experience">
+          <Link className="font-mono" href="#experience">
             <span className="text-greenlight">02.</span> Experience
-          </a>
+          </Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a className="font-mono" href="#project">
+          <Link className="font-mono" href="#project">
             <span className="text-greenlight">03.</span> Project
-          </a>
+          </Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a className="font-mono" href="#contact">
+          <Link className="font-mono" href="#contact">
             <span className="text-greenlight">04.</span> Contact
-          </a>
+          </Link>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
+          <Link
             className="text-greenlight border border-greenlight px-6 py-3 rounded-md font-mono transition-colors duration-700 transform hover:bg-greenlight hover:text-black focus:border-4 focus:border-greenlight"
             href="/resume.pdf"
             target="_blank"
           >
             Resume
-          </a>
+          </Link>
         </div>
       </div>
     </div>
