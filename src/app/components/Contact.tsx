@@ -23,7 +23,7 @@ const Contact = () => {
           className="text-greenlight border border-greenlight px-6 py-3 rounded-md font-mono transition-colors duration-700 transform hover:bg-greenlight hover:text-black focus:border-4 focus:border-greenlight"
           href="mailto:abdallah42.2001@icloud.com"
         >
-          Resume
+          Say Hello
         </a>
       </div>
     </div>
