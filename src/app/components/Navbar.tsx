@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -29,24 +30,56 @@ const Navbar = () => {
       </p>
       <div className="flex items-center gap-5 navbar">
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <Link className="font-mono" href="#about">
+          <ScrollLink
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer font-mono"
+          >
             <span className="text-greenlight">01.</span> About
-          </Link>
+          </ScrollLink>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <Link className="font-mono" href="#experience">
+          <ScrollLink
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer font-mono"
+          >
             <span className="text-greenlight">02.</span> Experience
-          </Link>
+          </ScrollLink>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <Link className="font-mono" href="#project">
+          <ScrollLink
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer font-mono"
+          >
             <span className="text-greenlight">03.</span> Project
-          </Link>
+          </ScrollLink>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <Link className="font-mono" href="#contact">
+          <ScrollLink
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer font-mono"
+          >
             <span className="text-greenlight">04.</span> Contact
-          </Link>
+          </ScrollLink>
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight hover:cursor-pointer   lg:static lg:h-auto lg:w-auto lg:bg-none">
           <Link
