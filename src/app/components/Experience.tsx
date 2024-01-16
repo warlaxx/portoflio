@@ -21,14 +21,14 @@ const Experience = () => {
   };
 
   return (
-    <div className="w-4/5 sm:w-full" id="experience">
+    <div className="md:w-4/5 sm:w-full" id="experience">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3 w-full">
           <p className="text-greenlight text-2xl">02.</p>
           <p className="text-gray font-semibold text-3xl">
             Where I&apos;ve Worked{" "}
           </p>
-          <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
+          <div className="md:w-2/5 border-t-[0.5px] border-y-graydark md:block hidden"></div>
         </div>
       </div>
       <div className="pt-10 flex gap-10 w-10/5">

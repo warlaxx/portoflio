@@ -27,18 +27,18 @@ export default function Home() {
       {loading ? (
         <Preloader />
       ) : (
-        <main className="flex flex-col px-10 lg- pt-12 bg-[#0a192f]">
+        <main className="flex flex-col px-5 md:px-10  pt-12 bg-[#0a192f]">
           <Navbar />
 
           <div className="flex flex-col">
-            <div className="flex flex-col  px-[10vw] 2xl:px-[20vw] lg:px-[5vw] ">
+            <div className="flex flex-col px-[2vw] md:px-[10vw] 2xl:px-[20vw] lg:px-[5vw] ">
               <div className="min-h-[90vh] justify-center flex">
                 <div className=" flex-col items-center  justify-center self-center">
-                  <p className="text-greenlight font-mono">Hi, my name is</p>
-                  <p className="text-gray text-[80px] font-semibold ">
+                  <p className="text-greenlight font-mono ">Hi, my name is</p>
+                  <p className="text-gray md:text-[80px] text-[40px] font-semibold ">
                     Abdallah Abdallaoui-maane
                   </p>
-                  <p className="text-graydark text-[80px] font-extrabold ">
+                  <p className="text-graydark md:text-[80px] text-[40px] font-extrabold ">
                     I build things for the web.
                   </p>
                   <p className="text-gray font-mono">

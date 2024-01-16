@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const Presentation = () => {
   return (
-    <div className="w-4/5 sm:w-full" id="about">
+    <div className="md:w-4/5 sm:w-full" id="about">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">01.</p>
           <p className="text-gray font-semibold text-3xl">About Me </p>
         </div>
-        <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
+        <div className="md:w-2/5 hidden md:block border-t-[0.5px] border-y-graydark"></div>
       </div>
-      <div className="flex  gap-10 pt-10">
-        <div className="w-2/4">
+      <div className="flex flex-col md:flex-row  gap-10 pt-10">
+        <div className="md:w-2/4">
           <p className="text-graydark pb-5">
             Hello ! My name is Abdallah, and I enjoy creating things that come
             to life on the Internet. My interest in web development started in
@@ -61,9 +61,9 @@ const Presentation = () => {
           <Image
             src="/image/IMG_0587.jpg" // Le chemin relatif depuis le dossier public
             alt="Description de l'image"
-            width={300} // Largeur souhaitée de l'image
+            width={800} // Largeur souhaitée de l'image
             height={100} // Hauteur souhaitée de l'image
-            className="rounded-xl"
+            className="rounded-xl w-full h-auto"
           />
         </div>
       </div>

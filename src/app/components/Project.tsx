@@ -17,12 +17,12 @@ const Projets = () => {
         </div>
         <div className="w-2/5 border-t-[0.5px] border-y-graydark"></div>
       </div>
-      <div className="pt-10 flex flex-col md:flex-row items-center ">
+      <div className="pt-10 hidden md:flex  items-center ">
         <div className="pt-10 flex flex-col md:flex-row items-center justify-center relative">
           <Link href={"https://dc.gg/"} target="_blank">
             <div
               className={`absolute top-10 left-0 right-0 bottom-0 bg-greenlight transition-opacity duration-300 z-20 rounded-md   ${
-                isHovered ? "opacity-0" : "opacity-40"
+                isHovered ? "opacity-0" : "opacity-30"
               }`}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
@@ -39,7 +39,7 @@ const Projets = () => {
         </div>
 
         {/* Contenu texte */}
-        <div className="md:text-end block relative right-12 w-2/5 md:w-4/5 justify-self-end z-50 pt-8">
+        <div className="md:text-end block relative right-12 w-2/5 md:w-4/5 justify-self-end z-30 pt-8">
           <p className="text-xs text-greenlight font-mono">Featured Project</p>
           <p className="text-2xl text-gray font-bold font-mono ">
             Project DC.GG
@@ -55,6 +55,48 @@ const Projets = () => {
             Next.js Express.js TypeScript Prisma
           </p>
         </div>
+      </div>
+
+      <div className="pt-10 md:hidden flex items-center relative">
+        {/* Contenu texte */}
+
+        {/* Image */}
+        <Link href={"https://dc.gg/"} target="_blank">
+          <div
+            className={`absolute top-10 left-0 right-0 bottom-0 bg-[#112240] transition-opacity duration-300 z-20 rounded-md ${
+              isHovered ? "opacity-0" : "opacity-40"
+            }`}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            <div className="md:text-end block  right-12   z-30 ">
+              <p className="text-xs text-greenlight font-mono">
+                Featured Project
+              </p>
+              <p className="text-md text-gray font-bold font-mono ">
+                Project DC.GG
+              </p>
+              <p className="text-graydark mb-4 rounded-md  ">
+                Explore dc.gg, the perfect site for Discord server
+                administrators. Create personalized invitation links and track
+                real-time statistics, including the number of clicks and other
+                vital data. Simplify your server management and enhance your
+                online presence with dc.gg!
+              </p>
+              <p className="text-graydark font-mono text-sm justify-between">
+                Next.js Express.js TypeScript Prisma
+              </p>
+            </div>
+          </div>
+
+          <Image
+            src="/image/screenshot_DCGG.png"
+            alt="Description de l'image"
+            width={800}
+            height={100}
+            className="rounded-md mb-4  relative " // Ajoutez des marges selon vos préférences
+          />
+        </Link>
       </div>
     </div>
   );

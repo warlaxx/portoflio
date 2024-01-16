@@ -1,5 +1,21 @@
 /* Preloader.module.css */
 
+@media (max-width: 425px) {
+  .preloader {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .loader1 {
+    font-size: 20px;
+  }
+  .loader {
+    font-size: 15px;
+  }
+}
+
 .preloader {
   position: fixed;
   top: 0;
