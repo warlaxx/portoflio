@@ -27,7 +27,7 @@ export default function Home() {
       {loading ? (
         <Preloader />
       ) : (
-        <main className="flex flex-col px-5 md:px-10  pt-12 bg-[#0a192f]">
+        <main className="flex flex-col px-5 md:px-10   bg-[#0a192f]">
           <Navbar />
 
           <div className="flex flex-col">
