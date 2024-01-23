@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 import Image from "next/image";
 import Navbar from "./components/Navbar";
@@ -55,6 +56,16 @@ export default function Home() {
                 <Projets />
 
                 <Contact />
+              </div>
+
+              <div>
+                <Link
+                  href="https://v4.brittanychiang.com"
+                  target="_blank"
+                  className="text-graydark font-mono text-[11px] justify-center flex pb-5 "
+                >
+                  Inspired by Brittany Chiang's portfolio
+                </Link>
               </div>
             </div>
           </div>
