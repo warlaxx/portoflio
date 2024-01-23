@@ -76,7 +76,7 @@
 }
 
 .loader {
-  animation: fadeOut 3s ease-out forwards;
+  animation: fadeOut 2s ease-out forwards;
   animation-delay: 1s;
 }
 
