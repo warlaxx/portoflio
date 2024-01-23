@@ -21,7 +21,7 @@ const Contact = () => {
       </p>
       <div className=" bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t text-gray hover:text-greenlight lg:static lg:h-auto lg:w-auto lg:bg-none pt-12 pb-32">
         <Link
-          className="text-greenlight border border-greenlight px-6 py-3 rounded-md font-mono transition-colors duration-700 transform hover:bg-greenlight hover:text-black focus:border-4 focus:border-greenlight"
+          className="text-greenlight border border-greenlight px-6 py-3 rounded-md font-mono transition-colors duration-700 transform hover:bg-greenlight hover:text-black focus:border-4"
           href="mailto:abdallah42.2001@icloud.com"
         >
           Say Hello
