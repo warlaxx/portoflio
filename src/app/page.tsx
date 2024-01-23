@@ -63,7 +63,7 @@ export default function Home() {
                 target="_blank"
                 className="text-graydark font-mono text-[11px] justify-center flex pb-5 "
               >
-                Inspired by Brittany Chiang's portfolio
+                Inspired by Brittany Chiang&apos;s portfolio
               </Link>
             </div>
           </div>
