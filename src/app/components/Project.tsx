@@ -98,6 +98,13 @@ const Projets = () => {
           />
         </Link>
       </div>
+      <Image
+        src="/images/DCGGphone.jpg"
+        alt="Description de l'image"
+        width={800}
+        height={100}
+        className="rounded-md mb-4 h-full relative" // Ajoutez des marges selon vos préférences
+      />
     </div>
   );
 };
