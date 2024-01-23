@@ -29,7 +29,7 @@ const Projets = () => {
             ></div>
 
             <Image
-              src="/image/screenshot_DCGG.png"
+              src="/static/images/screenshot_DCGG.png"
               alt="Description de l'image"
               width={800}
               height={100}
@@ -90,10 +90,10 @@ const Projets = () => {
           </div>
 
           <Image
-            src="/image/screenshotDCGGphone.jpg"
+            src="/static/images/screenshotDCGGphone.jpg"
             alt="Description de l'image"
             width={800}
-            height={10000}
+            height={100}
             className="rounded-md mb-4 h-full relative" // Ajoutez des marges selon vos préférences
           />
         </Link>

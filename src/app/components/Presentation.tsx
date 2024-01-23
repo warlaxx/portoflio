@@ -59,7 +59,7 @@ const Presentation = () => {
         </div>
         <div className="w-2/4">
           <Image
-            src="/image/IMG_0587.jpg" // Le chemin relatif depuis le dossier public
+            src="/static/images/IMG_0587.jpg" // Le chemin relatif depuis le dossier public
             alt="Description de l'image"
             width={800} // Largeur souhaitée de l'image
             height={100} // Hauteur souhaitée de l'image
