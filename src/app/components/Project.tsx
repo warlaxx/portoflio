@@ -7,7 +7,7 @@ const Projets = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="w-full" id="project">
+    <div className="md:w-4/5 w-full" id="project">
       <div className="flex items-center w-full gap-6 pt-10">
         <div className="flex items-center gap-3">
           <p className="text-greenlight text-2xl">03.</p>
