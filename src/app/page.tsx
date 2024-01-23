@@ -31,7 +31,7 @@ export default function Home() {
         <main className="flex flex-col px-5 md:px-10   bg-[#0a192f]">
           <Navbar />
 
-          <div className="flex flex-col">
+          <div className="flex flex-col page">
             <div className="flex flex-col px-[2vw] md:px-[10vw] 2xl:px-[20vw] lg:px-[5vw] ">
               <div className="min-h-[90vh] justify-center flex">
                 <div className=" flex-col items-center  justify-center self-center">

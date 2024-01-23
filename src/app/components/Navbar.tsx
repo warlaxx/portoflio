@@ -27,7 +27,17 @@ const Navbar = () => {
       }`}
     >
       <div className="fixed left-0 top-0 flex w-full justify-center  bg-gradient-to-b from-zinc-200 py-5 sm:py-0 backdrop-blur-2xl dark:border-neutral-800 dark:bg-[#112240]-800/30 dark:from-inherit lg:static lg:w-auto  ">
-        <TbHexagonLetterA className="text-greenlight w-10 h-auto flex justify-center items-center" />
+        <ScrollLink
+          activeClass="page"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="cursor-pointer font-mono"
+        >
+          <TbHexagonLetterA className="text-greenlight w-10 h-auto flex justify-center items-center" />
+        </ScrollLink>
       </div>
 
       <div className="hidden items-center gap-5 navbar lg:flex">
