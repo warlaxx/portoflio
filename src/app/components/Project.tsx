@@ -29,7 +29,7 @@ const Projets = () => {
             ></div>
 
             <Image
-              src="./image/screenshot_DCGG.png"
+              src="/image/screenshot_DCGG.png"
               alt="Description de l'image"
               width={800}
               height={100}
@@ -63,13 +63,13 @@ const Projets = () => {
         {/* Image */}
         <Link href={"https://dc.gg/"} target="_blank">
           <div
-            className={`absolute top-10 left-0 right-0 bottom-0 bg-[#112240] transition-opacity duration-300 z-20 rounded-md ${
-              isHovered ? "opacity-0" : "opacity-40"
+            className={`absolute top-10 left-0 right-0 bottom-4 bg-[#112240] transition-opacity duration-300 z-20 rounded-md ${
+              isHovered ? "opacity-0" : "opacity-90"
             }`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <div className="md:text-end block  right-12   z-30 ">
+            <div className="md:text-end block right-12 z-30 pt-10 pl-5 ">
               <p className="text-xs text-greenlight font-mono">
                 Featured Project
               </p>
@@ -90,11 +90,11 @@ const Projets = () => {
           </div>
 
           <Image
-            src="/image/screenshot_DCGG.png"
+            src="/image/screenshot_DCGG_phone1.png"
             alt="Description de l'image"
             width={800}
-            height={100}
-            className="rounded-md mb-4  relative " // Ajoutez des marges selon vos préférences
+            height={10000}
+            className="rounded-md mb-4 h-full relative " // Ajoutez des marges selon vos préférences
           />
         </Link>
       </div>
