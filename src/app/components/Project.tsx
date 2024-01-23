@@ -109,20 +109,20 @@ const Projets = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <div className="md:text-end block right-12 z-30 py-5 px-3">
-              <p className="text-xs text-greenlight font-mono">
+              <p className="text-xs text-greenlight font-mono text-md">
                 Featured Project
               </p>
-              <p className="text-md text-gray font-bold font-mono ">
+              <p className="text-md text-gray font-bold font-mono text-2xl">
                 Project DC.GG
               </p>
-              <p className="text-graydark mb-4 rounded-md  ">
+              <p className="text-graydark mb-4 rounded-md  text-md">
                 Explore dc.gg, the perfect site for Discord server
                 administrators. Create personalized invitation links and track
                 real-time statistics, including the number of clicks and other
                 vital data. Simplify your server management and enhance your
                 online presence with dc.gg!
               </p>
-              <p className="text-graydark font-mono text-sm justify-between">
+              <p className="text-graydark font-mono text-sm justify-between ">
                 Next.js Express.js TypeScript Prisma
               </p>
             </div>
@@ -148,13 +148,13 @@ const Projets = () => {
             onMouseLeave={() => setIsHovered1(false)}
           >
             <div className="md:text-end block right-12 z-30 py-5 px-3">
-              <p className="text-xs text-greenlight font-mono">
+              <p className="text-xs text-greenlight font-mono text-md">
                 Featured Project
               </p>
-              <p className="text-md text-gray font-bold font-mono ">
+              <p className="text-md text-gray font-bold font-mono text-2xl ">
                 Project KLF
               </p>
-              <p className="text-graydark mb-4 rounded-md  ">
+              <p className="text-graydark mb-4 rounded-md text-md">
                 Keep Learning French is a website that allows you to learn
                 French in a fun way. You can learn French grammar, vocabulary
                 and conjugation with interactive exercises. You can also learn
