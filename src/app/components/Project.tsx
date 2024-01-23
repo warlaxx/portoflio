@@ -69,7 +69,7 @@ const Projets = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <div className="md:text-end block right-12 z-30 pt-10 pl-5 ">
+            <div className="md:text-end block right-12 z-30 py-5 px-3">
               <p className="text-xs text-greenlight font-mono">
                 Featured Project
               </p>
@@ -94,7 +94,7 @@ const Projets = () => {
             alt="Description de l'image"
             width={800}
             height={10000}
-            className="rounded-md mb-4 h-full relative " // Ajoutez des marges selon vos préférences
+            className="rounded-md mb-4 h-full relative" // Ajoutez des marges selon vos préférences
           />
         </Link>
       </div>
