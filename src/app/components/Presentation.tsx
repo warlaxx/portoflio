@@ -57,7 +57,7 @@ const Presentation = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/4">
+        <div className="sm:w-2/4">
           <Image
             src="/images/IMG_0587.jpg" // Le chemin relatif depuis le dossier public
             alt="Description de l'image"

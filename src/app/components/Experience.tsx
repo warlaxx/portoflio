@@ -66,43 +66,42 @@ const Experience = () => {
               </p>
               <p className="text-gray text-sm">Nov 2022 - Nov 2023</p>
             </div>
-            <div className="pt-5 flex gap-5">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
-              <p className="text-graydark">
-                At <span className="text-greenlight">Sharewood</span>, I have
-                been involved in a variety of projects, ranging from small
-                tracking and maintenance tasks on{" "}
-                <span className="text-greenlight font-semibold">
-                  CMS WordPress
-                </span>
-                , where managing updates and content was crucial.
-              </p>
-            </div>
-            <div className="pt-5 flex gap-5">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
-              <p className="text-graydark">
-                In parallel, I developed applications with{" "}
-                <span className="text-greenlight font-semibold">Vue.js</span>{" "}
-                and{" "}
-                <span className="text-greenlight font-semibold">Laravel</span>{" "}
-                on the back-end for various clients, ensuring an optimal user
-                experience and advanced features.
-              </p>
-            </div>
-            <div className="pt-5 flex gap-5">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
-              <p className="text-graydark">
-                I also handled the hosting and deployment of a web application,
-                ensuring its smooth and efficient online presence.
-              </p>
-            </div>
-            <div className="pt-5 flex gap-5">
-              <BsArrowRightShort className="text-greenlight w-[30px] h-[16px]" />
-              <p className="text-graydark">
-                Throughout these missions, my priority has been to produce
-                clean, well-organized, and optimized code to ensure optimal
-                performance and simplified maintenance.
-              </p>
+            <div className="pl-5">
+              <div className="pt-5  flex items-center gap-5">
+                <p className="text-graydark">
+                  At <span className="text-greenlight">Sharewood</span>, I have
+                  been involved in a variety of projects, ranging from small
+                  tracking and maintenance tasks on{" "}
+                  <span className="text-greenlight font-semibold">
+                    CMS WordPress
+                  </span>
+                  , where managing updates and content was crucial.
+                </p>
+              </div>
+              <div className="pt-5 flex items-center gap-5">
+                <p className="text-graydark">
+                  In parallel, I developed applications with{" "}
+                  <span className="text-greenlight font-semibold">Vue.js</span>{" "}
+                  and{" "}
+                  <span className="text-greenlight font-semibold">Laravel</span>{" "}
+                  on the back-end for various clients, ensuring an optimal user
+                  experience and advanced features.
+                </p>
+              </div>
+              <div className="pt-5 flex items-center gap-5">
+                <p className="text-graydark">
+                  I also handled the hosting and deployment of a web
+                  application, ensuring its smooth and efficient online
+                  presence.
+                </p>
+              </div>
+              <div className="pt-5 flex items-center gap-5">
+                <p className="text-graydark">
+                  Throughout these missions, my priority has been to produce
+                  clean, well-organized, and optimized code to ensure optimal
+                  performance and simplified maintenance.
+                </p>
+              </div>
             </div>
           </div>
         )}
