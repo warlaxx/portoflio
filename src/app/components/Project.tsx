@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const Projets = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isHovered1, setIsHovered1] = useState(false);
 
   return (
     <div className="md:w-4/5 w-full" id="project">
@@ -57,6 +58,44 @@ const Projets = () => {
         </div>
       </div>
 
+      <div className="pt-10 hidden md:flex  items-center ">
+        <div className="pt-10 flex flex-col md:flex-row items-center justify-center relative">
+          <Link href={"https://keeplearningfrench.com/fr/"} target="_blank">
+            <div
+              className={`absolute top-10 left-0 right-0 bottom-0 bg-greenlight transition-opacity duration-300 z-20 rounded-md   ${
+                isHovered1 ? "opacity-0" : "opacity-30"
+              }`}
+              onMouseEnter={() => setIsHovered1(true)}
+              onMouseLeave={() => setIsHovered1(false)}
+            ></div>
+
+            <Image
+              src="/images/KLF.png"
+              alt="Description de l'image"
+              width={800}
+              height={100}
+              className="rounded-md mb-4 md:mb-0 relative w-full " // Ajoutez des marges selon vos préférences
+            />
+          </Link>
+        </div>
+
+        {/* Contenu texte */}
+        <div className="md:text-end block relative right-12 w-2/5 md:w-4/5 justify-self-end z-30 pt-8">
+          <p className="text-xs text-greenlight font-mono">Featured Project</p>
+          <p className="text-2xl text-gray font-bold font-mono ">Project KLF</p>
+          <p className="text-graydark  bg-[#112240] mb-4 rounded-md p-[25px] md:text-base ">
+            Keep Learning French is a website that allows you to learn French in
+            a fun way. You can learn French grammar, vocabulary and conjugation
+            with interactive exercises. You can also learn French culture with
+            articles and videos.
+          </p>
+
+          <p className="text-graydark font-mono text-sm justify-between">
+            Vue.js Laravel PHP MySQL
+          </p>
+        </div>
+      </div>
+
       <div className="pt-10 md:hidden flex items-center relative">
         {/* Contenu texte */}
 
@@ -91,6 +130,44 @@ const Projets = () => {
 
           <Image
             src="/images/DCGGphone.png"
+            alt="Description de l'image"
+            width={800}
+            height={100}
+            className="rounded-md mb-4 h-full relative" // Ajoutez des marges selon vos préférences
+          />
+        </Link>
+      </div>
+
+      <div className="pt-10 md:hidden flex items-center relative">
+        <Link href={"https://keeplearningfrench.com/fr/"} target="_blank">
+          <div
+            className={`absolute top-10 left-0 right-0 bottom-4 bg-[#112240] transition-opacity duration-300 z-20 rounded-md ${
+              isHovered1 ? "opacity-0" : "opacity-90"
+            }`}
+            onMouseEnter={() => setIsHovered1(true)}
+            onMouseLeave={() => setIsHovered1(false)}
+          >
+            <div className="md:text-end block right-12 z-30 py-5 px-3">
+              <p className="text-xs text-greenlight font-mono">
+                Featured Project
+              </p>
+              <p className="text-md text-gray font-bold font-mono ">
+                Project KLF
+              </p>
+              <p className="text-graydark mb-4 rounded-md  ">
+                Keep Learning French is a website that allows you to learn
+                French in a fun way. You can learn French grammar, vocabulary
+                and conjugation with interactive exercises. You can also learn
+                French culture with articles and videos.
+              </p>
+              <p className="text-graydark font-mono text-sm justify-between">
+                Vue.js Laravel PHP MySQL
+              </p>
+            </div>
+          </div>
+
+          <Image
+            src="/images/KLFphone.png"
             alt="Description de l'image"
             width={800}
             height={100}
