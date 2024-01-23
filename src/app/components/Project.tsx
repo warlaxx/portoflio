@@ -90,7 +90,7 @@ const Projets = () => {
           </div>
 
           <Image
-            src="/images/DCGGphone.jpg"
+            src="/images/DCGGphone.png"
             alt="Description de l'image"
             width={800}
             height={100}
