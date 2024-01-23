@@ -58,15 +58,13 @@ export default function Home() {
                 <Contact />
               </div>
 
-              <div>
-                <Link
-                  href="https://v4.brittanychiang.com"
-                  target="_blank"
-                  className="text-graydark font-mono text-[11px] justify-center flex pb-5 "
-                >
-                  Inspired by Brittany Chiang's portfolio
-                </Link>
-              </div>
+              <Link
+                href="https://v4.brittanychiang.com"
+                target="_blank"
+                className="text-graydark font-mono text-[11px] justify-center flex pb-5 "
+              >
+                Inspired by Brittany Chiang's portfolio
+              </Link>
             </div>
           </div>
         </main>
