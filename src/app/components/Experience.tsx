@@ -56,7 +56,7 @@ const Experience = () => {
         {isClicked && (
           <div className="pt-5 w-4/5">
             <div>
-              <p className="text-xl">
+              <p className="text-xl text-white">
                 Full-stack Developer{" "}
                 <a href="https://sharewood.team/" target="_blank">
                   <span className="text-greenlight font-semibold">
